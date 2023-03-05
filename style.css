@@ -1,14 +1,55 @@
 
+.rahma{
+
+    width: 30%;
+    color: grey;
+    margin-right:2%;
+    }
 .flex{
     display:flex ;
-    justify-content:space-around;
+    justify-content:center;
     size: 50%;
        
-    color:#00b39b;;
-    font-size:5.125rem
-    
-  
+    font-size:1.125rem;
+       }
+    .card{
+    width: 20%;
+    color:white;
+    border: radius 20px;
+    padding: 25px;
+    margin-right:3%;
+    background-color:#00b39b;
     }
+    .patients{
+    
+    }
+    .doctors{
+background-color: #075cbd;
+    }
+    .clinics{
+    background-color:  #011327;
+    }
+    .dd{
+        display:flex ;
+        justify-content:center;
+    }
+.tt{
+display:flex;
+align-items:baseline;
+justify-content:space-between;
+}
+.re{
+
+height:50%
+}
+.pictures{
+width:26%;
+}
+.SS{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 .item{
 color: white    ;
 
@@ -17,36 +58,21 @@ padding:0;
 background: #00b39b;
 }
 
-h1{
+.title{
 color:#00b39b;;
-font-size:5.125rem
+font-size:5.125rem;
 margin: 0;
 padding:0;
 text-align: center;
-size:50%
+size:50%;
 font-weight: 300
 
 }
 
 
 
-#img{
-    display:flex;
-    flex-wrap:wrap-reverse;
-    max: width 100%;
-    height: auto;
-    justify-content:space-evenly;
-    
-    justify-content: center;
-    align-items: center;
-    overflow-clip-margin: content-box;
-overflow:inherit;
-    margin: 0 auto;
-    box-sizing: inherit;
 
-.image{
-display:flex: ;;
-}
+
 
 #test{
 color: black;
@@ -64,9 +90,9 @@ box{
     flex-wrap: wrap;
     font-size: 1.625em;
     font-weight: 400;
-    color:blue
+    color:blue;
     margin: 0.3em 0;
-    box-sizing: inherit
+    box-sizing: inherit;
 
 }
 
@@ -83,20 +109,12 @@ box{
 .id{
 color: grey;
 }
-img{
-display:flex;
-flex-wrap: wrap;
-justify-content: space-between;
-width:400px;
-height:400px 
-overflow-clip-margin: content-box;
-overflow: clip;
-border: 0;
-box-sizing: inherit;
-}
+
 .logo-docplanner {
     width: 268px;
     height: 33px;
+}
+
 
 
 
